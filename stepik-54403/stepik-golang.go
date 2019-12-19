@@ -4,8 +4,15 @@ import "fmt"
 
 func main() {
 	var a int
-	fmt.Scan(&a)
-	fmt.Print((a * 2) + 100)
-	//102
-	//1
+	var b int
+	var c int
+	fmt.Scan(&a) // считаем переменную 'a' с консоли
+	fmt.Scan(&b) // считаем переменную 'b' с консоли
+	a = a * a
+	b = b * 2
+	c = a + b
+	fmt.Println(c)
+	//2
+	//2
+	//8
 }
