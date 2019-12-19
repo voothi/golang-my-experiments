@@ -5,6 +5,8 @@ func main() {
 		name string = "Name"
 		age  int    = 99
 	)
-	println(name, age)
-	//Name 99
+	println(name)
+	println(age)
+	//Name
+	//99
 }
