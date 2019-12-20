@@ -9,10 +9,7 @@ func main() {
 	fmt.Scan(&a) // считаем переменную 'a' с консоли
 	fmt.Scan(&b) // считаем переменную 'b' с консоли
 	a = a * a
-	b = b * 2
+	b = b * b
 	c = a + b
 	fmt.Println(c)
-	//2
-	//2
-	//8
 }
