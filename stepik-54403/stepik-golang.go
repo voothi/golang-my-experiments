@@ -3,7 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	var a int
-	fmt.Scan(&a) // считаем переменную 'a' с консоли
-	fmt.Println(a / 10 % 10)
+	var d int
+	fmt.Scan(&d)
+	var time int
+	var h int
+	var m int
+	time = d * 120
+	h = time / 3600
+	m = (time % 3600) / 60
+	fmt.Println("It is", h, "hours", m, "minutes.")
 }
