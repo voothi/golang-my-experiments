@@ -3,8 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	var a int = 8
-	const b int = 10
-	a = a + b
-	fmt.Println(a)
+	// a:=44
+
+	var a2 int = 10
+
+	a2 = a2 * 10
+	fmt.Println(a2)
 }
