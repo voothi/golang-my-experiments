@@ -3,6 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	const pi float64 = 3.1415
-	fmt.Println(pi)
+	const a int = 18
+	fmt.Println(a)
 }
