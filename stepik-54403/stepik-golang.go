@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	const a int = 5
+	var a int
+	fmt.Scan(&a)
 	if a > 0 {
 		fmt.Println("Число положительное")
 	} else if a < 0 {
